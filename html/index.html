@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Ridho</title>
+  
+  <link rel="icon" type="image/png" href="/asset/logo background.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="webgl-bg"></canvas>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#home">
+        <img src="/asset/logo background.png" alt="Logo RG" class="logo-img">
+      </a>
+    </div>
+
+    <div class="nav-menu" id="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#languages" class="nav-item">Languages</a></li>
+        <li><a href="#soft-skills" class="nav-item">Soft Skills</a></li>
+        <li><a href="#projects" class="nav-item">Project</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-controls">
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">🌙</button>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+
+      <div class="profile-slider-container">
+      <div class="profile-slider" id="profile-slider">
+        <img src="/asset/myfoto.jpeg" alt="Foto Profil 1" class="slider-img">
+        <img src="/asset/myfotonature.jpeg" alt="Foto Profil 2" class="slider-img">
+        <img src="/asset/myfototrip.jpeg" alt="Foto Profil 3" class="slider-img">
+      </div>
+    </div>
+
+      <h1>Hi, I'm <span class="highlight">Ridho</span></h1>
+      <p>I'm an 20 years old 4th Semester undergraduate
+        student at <span class="highlight-binus">BINUS UNIVERSITY</span> studying Computer Science.
+        I'm also a decent video editor, mostly using CapCut as my go to.
+        I yearn to become a software developer and website maker, even an application maker in the future.
+      </p>
+      <a href="#projects" class="btn">Lihat Proyek</a>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <div class="skills-header">
+      <h2>Skills</h2>
+      <p>Here are some of the skills I've developed over the years</p>
+    </div>
+    
+    <div class="skills-grid">
+      <div class="skill-card card-video-editing">
+        <div class="card-overlay">
+          <h3>Video Editing</h3>
+        </div>
+      </div>
+      <div class="skill-card card-ui-ux-designer">
+        <div class="card-overlay">
+          <h3>UI/UX Designer</h3>
+        </div>
+      </div>
+      <div class="skill-card card-programming">
+        <div class="card-overlay">
+          <h3>Programming</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="languages" class="section">
+    <div class="skills-header">
+      <h2>Knowable Languages</h2>
+    </div>
+
+    <div class="lang-wrapper">
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/HTML.png" alt="HTML Icon" class="lang-icon">
+          <span class="lang-name">HTML</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 80%;"></div>
+        </div>
+        <span class="lang-percent">80%</span>
+      </div>
+
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/CSS.png" alt="CSS Icon" class="lang-icon">
+          <span class="lang-name">CSS</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 85%;"></div>
+        </div>
+        <span class="lang-percent">85%</span>
+      </div>
+      
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/JS.png" alt="JS Icon" class="lang-icon">
+          <span class="lang-name">JavaScript</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 40%;"></div>
+        </div>
+        <span class="lang-percent">40%</span>
+      </div>
+      
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/Python.png" alt="Python Icon" class="lang-icon">
+          <span class="lang-name">Python</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 80%;"></div>
+        </div>
+        <span class="lang-percent">80%</span>
+      </div>
+
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/C++.png" alt="C++ Icon" class="lang-icon">
+          <span class="lang-name">C++</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 55%;"></div>
+        </div>
+        <span class="lang-percent">55%</span>
+      </div>
+
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/C.png" alt="C Icon" class="lang-icon">
+          <span class="lang-name">C</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 50%;"></div>
+        </div>
+        <span class="lang-percent">50%</span>
+      </div>
+
+      <div class="lang-item">
+        <div class="lang-info">
+          <img src="/asset/SQL.png" alt="SQL Icon" class="lang-icon">
+          <span class="lang-name">SQL</span>
+        </div>
+        <div class="lang-bar-bg">
+          <div class="lang-bar-fill" style="width: 60%;"></div>
+        </div>
+        <span class="lang-percent">60%</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="soft-skills" class="section">
+    <div class="skills-header">
+      <h2>Soft Skills</h2>
+    </div>
+
+    <div class="soft-skills-container">
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+          </svg>
+        </div>
+        <h3>Empathy</h3>
+        <p>Memahami perasaan dan sudut pandang orang lain.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <h3>Teamwork</h3>
+        <p>Mampu bekerja sama dalam tim, saling berdiskusi, dan berkontribusi aktif mencapai tujuan bersama.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <h3>Communication</h3>
+        <p>Menyampaikan gagasan atau ide dengan jelas, baik secara lisan maupun tertulis.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/>
+          </svg>
+        </div>
+        <h3>Adaptability</h3>
+        <p>Cepat mempelajari teknologi baru dan fleksibel menghadapi perubahan alur kerja.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <h3>Time Management</h3>
+        <p>Mengatur prioritas tugas dengan baik agar proyek dapat diselesaikan tepat waktu.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3>Digital Literacy</h3>
+        <p>Cepat beradaptasi dengan alat dan teknologi baru.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+        </div>
+        <h3>Stress Management</h3>
+        <p>Tetap tenang dan fokus saat menghadapi situasi sulit.</p>
+      </div>
+
+      <div class="soft-skill-card">
+        <div class="soft-skill-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"/>
+            <circle cx="6" cy="12" r="3"/>
+            <circle cx="18" cy="19" r="3"/>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+          </svg>
+        </div>
+        <h3>Networking</h3>
+        <p>Menciptakan hubungan profesional yang luas dan suportif.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects-section">
+    <div class="skills-header">
+      <h2>My Projects</h2>
+      <p>Kumpulan proyek dan repositori yang telah saya kembangkan</p>
+    </div>
+
+    <div class="projects-container">
+      <a href="https://github.com/RidhoGibran" target="_blank" rel="noopener noreferrer" class="github-card">
+        <div class="github-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+        </div>
+        <div class="github-info">
+          <h3>GitHub Profile & Repositories</h3>
+          <p>Jelajahi source code, proyek web, dan eksperimen pemrograman saya di GitHub.</p>
+          <span class="btn-github">
+            Kunjungi GitHub 
+            <span class="arrow">&rarr;</span>
+          </span>
+        </div>
+      </a>
+
+    <div class="project-cards-grid">
+
+      <!-- Proyek 1 -->
+      <div class="project-card">
+          <div class="project-details">
+            <h3>3D Gesture Particle System</h3>
+            <p>Aplikasi web interaktif menggunakan webcam untuk melacak gerakan tangan secara real-time dan memanipulasi bentuk partikel 3D.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">MediaPipe</span>
+              <span class="tag">Script.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/RidhoGibran/3D-Hand-Gesture-Motion.git" target="_blank" class="proj-link">Source Code</a>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="skills-header">
+      <h2>Contact Me</h2>
+      <p>Please do not hesitate to contact me using the details below.</p>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-label">Email</span>
+            <span class="contact-value" id="email-text">rgibranhidayatullah@gmail.com</span>
+          </div>
+          <button class="copy-btn" onclick="copyToClipboard('email-text', this)">Salin</button>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </div>
+          <div class="contact-detail">
+            <span class="contact-label">Nomor HP / WA</span>
+            <span class="contact-value" id="phone-text">+62 899 8096 551</span>
+          </div>
+          <button class="copy-btn" onclick="copyToClipboard('phone-text', this)">Salin</button>
+        </div>
+      </div>
+
+      <div class="social-wrapper">
+        <p class="social-title">or You can find me in My Social Media:</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/ridho_gibh?igsi=MWtiaXhlY2tsN3E5Zw==" target="_blank" aria-label="Instagram" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/ridho-gibran-hidayatulloh-a73887321?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Ridho Gibran Hidayatulloh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
