@@ -12,18 +12,13 @@ Website ini dilengkapi dengan dukungan **Light & Dark Theme** otomatis serta **a
 
 - **🎨 Dual Theme (Light & Dark Mode):** Penyesuaian tema warna latar belakang yang nyaman di mata dengan transisi halus.
 - **✨ 3D Particle Animation:** Animasi partikel melingkar interaktif di *Hero Section* yang responsif terhadap pergerakan kursor/layar.
-- **📱 Fully Responsive:** Tampilan teroptimasi untuk berbagai ukuran layar (Desktop, Tablet, & Mobile).
+- **📱 Fully Responsive:** Tampilan teroptimasi untuk berbagai ukuran layar (Desktop, Mobile).
 - **💼 Project Showcase:** Galeri kartu proyek interaktif lengkap dengan deskripsi, *tech stack*, serta link demo langsung & *source code*.
-- **🎮 Interactive Lab / Playground:** Area eksperimen langsung untuk mencoba proyek berbasis *gesture tracking* dan grafis interaktif.
-
 ---
 
 ## 🛠️ Tech Stack & Tools
 
 - **Front-End:** HTML5, CSS3, JavaScript (ES6+)
-- **3D Graphics & Vision:** Three.js / Canvas API, OpenCV, MediaPipe
+- **3D Graphics & Vision:** Three.js / Canvas API
 - **Hosting & Deployment:** Vercel / Netlify
 - **Version Control:** Git & GitHub
-1. **Clone repositori ini:**
-   ```bash
-   git clone [https://github.com/username-kamu/portfolio.git](https://github.com/username-kamu/portfolio.git)
