@@ -141,9 +141,6 @@ function copyToClipboard(elementId, btnElement) {
   });
 }
 
-// ==========================================
-  // 4. AUTOMATIC PROFILE IMAGE SLIDER
-  // ==========================================
   const slider = document.getElementById('profile-slider');
   const slides = document.querySelectorAll('.slider-img');
   
